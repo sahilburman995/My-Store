@@ -55,4 +55,4 @@ npm install
 # Run the application
 npm start
 
-![Project Screenshot](./src/assets/ecomi.jpg)
+![Alt Text](http://127.0.0.1:5173/src/assets/ecomi.jpg)
