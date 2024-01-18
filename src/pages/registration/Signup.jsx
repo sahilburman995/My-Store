@@ -8,13 +8,14 @@ import { Timestamp, addDoc, collection } from 'firebase/firestore';
 import Loader from '../../components/loader/Loader';
 
 function Signup() {
+  
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
     const context = useContext(myContext);
     const { loading, setLoading } = context;
-
+    console.log(name,email,password);
     const signup = async () => {
         setLoading(true)
         if (name === "" || email === "" || password === "") {
@@ -24,7 +25,7 @@ function Signup() {
         try {
             const users = await createUserWithEmailAndPassword(auth, email, password);
 
-            // console.log(users)
+             console.log(users)
 
             const user = {
                 name: name,

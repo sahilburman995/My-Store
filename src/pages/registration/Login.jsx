@@ -19,6 +19,8 @@ function Login() {
         setLoading(true)
         try {
             const result = await signInWithEmailAndPassword(auth,email,password);
+            console.log(result);
+            
             toast.success("Login successful", {
                 position: "top-right",
                 autoClose: 2000,
@@ -29,6 +31,7 @@ function Login() {
                 progress: undefined,
                 theme: "colored",
               })
+              
             localStorage.setItem('user', JSON.stringify(result))
             navigate('/')
             setLoading(false)
