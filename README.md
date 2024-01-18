@@ -1,7 +1,7 @@
 # E-Commerce Website
 
 A full-stack ecommerce website built with [Your Tech Stack].
-![Alt Text](http://127.0.0.1:5173/src/assets/ecomi.jpg)
+
 
 ## Table of Contents
 
