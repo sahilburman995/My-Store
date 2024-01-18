@@ -54,3 +54,5 @@ npm install
 
 # Run the application
 npm start
+
+![Project Screenshot](./src/assets/ecomi.jpg)
